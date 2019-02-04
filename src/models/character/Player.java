@@ -3,8 +3,8 @@ package models.character;
 public class Player extends Character {
     public int currentExperience;
 
-    public Player(int characterLevel, int attackDamage, int healthPoints, int currentExperience) {
-        super(characterLevel, attackDamage, healthPoints);
+    public Player(int characterLevel, int attackDamage, int healthPoints, int currentExperienc, String name) {
+        super(characterLevel, attackDamage, healthPoints, name);
         this.currentExperience = currentExperience;
     }
 
